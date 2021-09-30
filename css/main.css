@@ -1,0 +1,457 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 24px;
+	background: linear-gradient(122.7deg, #8670FC 13.61%, #FDCEFE 82.72%);
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 151px 0 35px 0;
+	font-size: 48px;
+	line-height: 59px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.068em;
+	font-style: normal;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width:  1100px;
+	max-width: 100%;
+	margin: 0 auto; /*позиционирование по центру*/
+}
+
+.header{
+	margin-bottom: 200px;
+}
+header a{
+	color: #FFFEFE;
+}
+
+.FS{
+	margin-right: 69px;
+}
+
+.menu{
+	display: flex;
+	padding-left:100px;
+}
+.menu li a {
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.068em;
+}
+
+.menu li{
+	margin-right:41px;
+	padding-bottom: 10px;
+}
+
+.tel{
+	font-size: 14px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.058em;
+	color: black;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+	justify-content: space-between;
+}
+
+.img1{
+	margin-right: 105px;
+	margin-top: 50px;
+}
+
+.imgph{
+	 width: 28px;
+	 height: 28px;
+	 padding-left: 15px;
+}
+
+.vk{
+	width: 36px;
+	 height: 36px;
+	 padding-left: 220px;
+	 margin-top: 5px;
+}
+
+.log{
+	position: relative;
+}
+
+.text{
+	position: absolute;
+	display: flex;
+    align-items: center;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.058em;
+	color: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.text1{
+	font-weight:bold;
+	font-size: 14px;
+	letter-spacing: 0.068em;
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+.rectangle{
+
+	position: absolute;
+	width: 1349px;
+	height:675px;
+	left: 0px;
+	top: 651px;
+	background: rgba(255, 254, 254, 0.44);
+}
+
+.img2{
+	margin-right: 99px;
+	margin-top: 100px;
+}
+
+h2{
+	margin-top: 0px;
+}
+
+section{
+	padding-top: 113px;
+	padding-bottom: 113px;
+}
+
+.about{
+	background: rgba(255, 254, 254, 0.44);
+}
+
+.achievement{
+	padding-top: 60px;
+}
+
+h3{
+	margin-top: 0px;
+	margin-left: 350px;
+}
+
+.diploms{
+	display: flex;
+	align-items: center;
+	padding-top: 30px;
+	justify-content: space-around;
+}
+
+.skills{
+	background: whitesmoke;
+	padding-top: 100px;
+    padding-bottom: 180px;
+}
+.Python{
+	padding-top: 0px;
+}
+h4{
+	margin-top: 0px;
+	margin-bottom: 99px;
+}
+.skInf{	
+	display: flex;
+    align-items: flex-start;
+	margin-top: 0px;
+	justify-content: space-between
+}
+.text2{
+	margin: 0 0 15px 0;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	justify-content: space-between;
+}
+#footer{
+	background: rgba(255, 254, 254, 0.44);
+}
+
+.vk1{
+	width: 36px;
+	 height: 36px;
+	 padding-left: 685px;
+	 margin-top: 5px;
+}
+
+.button{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.writeme{
+	position: absolute;
+	color: white;
+	margin: 20px 0 10px 75px;
+}
+
+.menu-open {
+	background: none;
+    border: none;
+    margin-right: 20px;
+    margin-left: 30px;
+    display: none;
+}
+
+.header .show-menu {
+	display: block;
+	position: absolute;
+    background: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+    width: 50%;
+    padding: 40px 20px 10px 100px;
+}
+
+.header .show-menu li {
+	margin-bottom: 20px;
+}
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+button:focus {
+	outline: none
+}
+
+/*Тут про адаптацию*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1140px;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+	.img1 {
+		width: 45%;
+    	margin-top: 10%;
+    	margin-right: 5%;
+	}
+	.vk{
+		padding-left: 80px;
+	}
+	.vk1{
+		    padding-left: 545px;
+	}
+	.img2{
+		width: 45%;
+    	margin-top: 5%;
+    	margin-right: 5%;
+	}
+
+
+}
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+	.menu{
+    	padding-right: 25px;
+	}
+	.text1{
+		display: none;
+	}
+	.img1 {
+		width: 50%;
+    	margin-top: 20%;
+    	margin-right: 5%;
+	}
+	.vk{
+		display: none;
+	}
+	.vk1{
+		padding-left: 450px;
+	}
+	.img2{
+		width: 45%;
+    	margin-top: 25%;
+    	margin-right: 3%;
+	}
+	h3{
+		margin-left: 190px;
+	}
+
+	.skInf{
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px;		
+	}
+	body{
+		font-size: 20px;
+	}
+	.menu {
+		padding-left: 15px;
+		padding-right: 10px;
+	}
+	.imgph{
+		display: block;
+	}
+	h1{
+		margin-top: 350px;
+	}
+	.img1{
+		width: 80%;
+    	margin-top: 10%;
+    	margin-right: 10%;
+	}
+	h1,h2,h3,h4{
+		font-size: 40px;
+	}
+	h3{
+		margin-left: 50px;
+	}
+	.diploms img:nth-child(1),
+	.diploms img:nth-child(2){		
+		margin-bottom: 20px;
+	}
+	.diploms{
+		flex-wrap: wrap;
+	}
+	.vk{
+		padding-left: 193px;
+		display: block;
+	}
+	.vk1{
+		padding-left: 274px;
+		display: block;
+	}
+	.menu{
+		display: none;
+	}
+	.menu-open {
+	    display: block;
+	}
+	.skInf{
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		width: 90%;
+		padding: 0 15px;
+	}
+	.vk{
+		padding-left: 40px;
+	}
+	.vk1 {
+		padding-left: 120px;
+	}
+	body{
+		font-size: 18px;
+	}
+	h3{
+		margin-left: 25px;
+	}
+	h2 {
+    	margin-top: 260px;
+	}
+	.img2{
+		width: 80%;
+    	margin-top: 10%;
+    	margin-right: 10%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.container {
+		width: 80%;
+		padding: 0 15px;
+	}
+	body{
+		font-size: 16px;
+	}
+	h1,h2,h3,h4{
+		font-size: 30px;
+	}
+	h3{
+		margin-left: 10px;
+	}
+	h1{
+		margin-top: 300px;
+	}
+	.menu li a {   
+    	font-size: 10px;    
+	}
+	.but{		
+		width: 280px;
+    	height: 66px;    	
+	}
+	.button{
+		margin-left: 0px;
+	}
+	.wtiteme{
+		width: 80%;
+	}
+	.diploms img:nth-child(1),
+	.diploms img:nth-child(2){		
+		width: 90%;
+	}
+	.text2{
+		margin-top: 0px;
+		margin-left: 0;
+	}
+	.menu{
+		padding-right: 10px;
+	}
+	.img2 {
+		margin-top: 50px;
+    	width: 80%;
+    	margin-right: 10%;
+	}
+	h2{
+		margin-bottom: 0px;
+	}
+	.vk{
+		display: none;
+	}
+	.menu-open {
+    	margin-left: 20px;
+    }
+    .vk1 {
+    	padding-left: 36px;
+	}
+	.menu-open {
+    	margin-left: 30px;
+    	margin-right: 0px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.header .show-menu {
+	    padding: 30px 10px 10px 80px;
+	}
+	.imgph {
+    	display: none;
+	}
+}
